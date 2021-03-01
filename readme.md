@@ -1,0 +1,3 @@
+# japaneseIME test
+
+test.
