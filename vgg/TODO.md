@@ -1,19 +1,19 @@
 # X11 TODO
 
 
-## sokol probrem
+## sokol issue
 
 * [ ] japaneseIME CHECK
 * [ ] shortcut
 
-## sokol <-> sokolV probrem
+## sokol <-> sokolV issue
 
-* [ ] enum, struct probrem (Event parse not working)
+* [ ] enum, struct bug? (Event parse not working)
 
-## sokolV <-> gg probrem
+## sokolV <-> gg issue
 
 * [ ] japanese_input_pending / confirm
 
 
-## v-ui probrem
+## v-ui issue
 

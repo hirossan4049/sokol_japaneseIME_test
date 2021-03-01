@@ -17,7 +17,7 @@ void send_spot(XIC ic, XPoint nspot)
     preedit_attr = XVaCreateNestedList(0, XNSpotLocation, &nspot, NULL);
     XSetICValues(ic, XNPreeditAttributes, preedit_attr, NULL);
     
-    XFlush(dpy);
+    //XFlush(dpy);
     //XSetICValues(ic, XIMPreeditPosition, preedit_attr, NULL);
     XFree(preedit_attr);
 }
