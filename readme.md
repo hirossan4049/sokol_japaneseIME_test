@@ -1,6 +1,6 @@
 # sokol japaneseIME test
 
-read [TODO.md](TODO.md)
+read [vgg/TODO.md](vgg/TODO.md)
 
 test.
 
