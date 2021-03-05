@@ -3,8 +3,9 @@
 
 ## sokol issue
 
-* [ ] japaneseIME CHECK
+* [x] japaneseIME CHECK
 * [ ] shortcut
+* [ ] keydown event not working
 
 ## sokol <-> sokolV issue
 
