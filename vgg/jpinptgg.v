@@ -37,13 +37,13 @@ fn main() {
 		frame_fn: frame
 		font_path: font_path // window_user_ptr: ctx
 
-        japanese_input_pending: jip
-        japanese_input_confirm: jic
+        ckj_input_pending: jip
+        ckj_input_confirm: jic
 	)
 	app.gg.run()
 }
 
-fn jip(text string,mut app App){
+fn jip(text string, length int, first int, caret int,mut app App){
     println("pending_text: $app.pending_text")
     app.pending_text = "$text"
 }
